@@ -1,0 +1,56 @@
+
+nav{
+
+&.navbar-default{
+    
+	background-color:rgba($base-black,0.9);
+	border-bottom:1px solid $base-white;
+      .navbar-brand{
+
+		color:$base-orange;
+
+		}
+
+}
+
+#navbar{
+	
+        
+	ul{
+
+&.nav{
+         
+
+
+	li{
+text-align: center;
+	&.active{
+       a{
+     
+      color:$base-white;
+      background-color:rgba($base-black,0);
+      border-bottom:2px solid $base-orange;
+      
+       }
+	}
+
+	a{
+
+	margin-right:20px;
+     color:rgba($base-white,0.9);
+     font-size:13px;
+
+ 	}
+	a:hover,focus{
+color:$base-orange;
+border-bottom:1px solid $base-orange;
+
+	}
+	}
+	}
+	}
+}
+	
+
+}
+
